@@ -1,6 +1,8 @@
-# Roam Control 0.9.2 - Build 61
+# Roam Control 0.9.4
 
-Roam Control 0.9.2 Build 61 is the current public release for testing an iPhone's reported location from a clean Apple Maps interface. It supports fixed locations, simulated walking routes, favourites, history and on-device pairing through LocalDevVPN.
+Build 74, released 26 September 2026.
+
+Roam Control 0.9.4 is the current public release for testing an iPhone's reported location from a clean Apple Maps interface.
 
 ## Before installing
 
@@ -13,31 +15,32 @@ Read the [installation guide](Installation.md), [privacy explanation](Privacy.md
 
 ## Download
 
-Download `RoamControl-0.9.2-build61.ipa` from the [Roam Control 0.9.2 release](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.2).
+Download `RoamControl-0.9.4-build74.ipa` from the [Roam Control 0.9.4 release](https://github.com/seanhowarthdev/Roam-Control/releases/tag/v0.9.4).
 
 SHA-256:
 
-`a6dde76eb02a696347be9ccfc3bff34b4a86745c0de7964811363e88fce1890d`
+`b55bf4bf6a509dd02731a6e4e97253724857a72cc31085571bd6eda1e5d0ad20`
 
 ## Highlights
 
-- Search for a place, enter coordinates or tap the map.
-- Start and update a fixed reported location without restarting the connection.
-- Preview and simulate Apple Maps walking routes.
-- Pause, resume, reverse or redirect an active walk.
-- Save favourites and revisit recent locations.
-- Recover safely after an interrupted session.
-- Choose light, dark or automatic appearance and multiple map styles.
-- Optionally share a small, fixed set of anonymous usage statistics; sharing is off by default.
-- Copy privacy-safe connection diagnostics for troubleshooting.
+- Added Backup & Restore for favourites, history and supported app preferences.
+- Added Mainland China coordinate compatibility for searched and selected locations.
+- Added Automatic, Off and Force Correction location compatibility modes.
+- Improved walking-route and active-session behaviour.
+- Improved Stop & Restore guidance and session recovery messaging.
+- Improved update checking so prerelease builds are not offered as stable updates.
+- Updated Connection Health guidance for compatible Personal VPNs.
+- Added preparation for the one-time app migration planned for Roam Control 0.9.5.
 
-## Build 61 pairing change
+## Backup & Restore
 
-Build 61 improves pairing reliability on SideStore-resigned installations, including cases where earlier builds could fail during the pairing process.
+Backup & Restore is available from Settings.
 
-Pairing remains protected during the brief transition to Settings, with cleanup handled automatically after success, failure, cancellation or timeout.
+Backups include favourites, history, appearance, map style and location compatibility preferences.
 
-Build 61 was initially published as a Preview for wider SideStore testing. Following successful real-world testing, it was promoted to the main Roam Control 0.9.2 release.
+Pairing records, analytics consent, analytics identity, active-session recovery data and diagnostics are deliberately not included.
+
+Roam Control 0.9.5 will use a new app identifier. Users upgrading from 0.9.4 should create a fresh backup before moving to 0.9.5 and will need to pair the iPhone again afterward.
 
 ## Distribution constraints
 

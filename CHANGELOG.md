@@ -4,6 +4,32 @@ Public-facing changes to Roam Control are recorded here.
 
 Detailed internal engineering notes are maintained privately.
 
+## 0.9.4 - Build 74
+
+Released 26 September 2026.
+
+### New
+
+- Added Backup & Restore for favourites, history and supported app preferences.
+- Added Mainland China coordinate compatibility for searched and selected locations.
+- Added Automatic, Off and Force Correction location compatibility modes.
+- Added advance guidance for the one-time app migration planned for Roam Control 0.9.5.
+
+### Improved
+
+- Improved location correction handling without changing manually entered coordinates.
+- Improved walking-route and active-session behaviour.
+- Refined Stop & Restore messaging and recovery behaviour.
+- Improved stable-release update checking so prereleases are ignored.
+- Updated Connection Health guidance for compatible Personal VPNs and Device VPN conflicts.
+- Restored an immutable packaged build timestamp so SideStore re-signing does not change the displayed build time.
+
+### Backup & migration
+
+- Backups include favourites, history, appearance, map style and location compatibility preferences.
+- Pairing records, analytics consent and identity, active-session recovery state and diagnostics are deliberately excluded.
+- Roam Control 0.9.4 can remind users to create a fresh backup before moving to 0.9.5.
+
 ## 0.9.3 - Build 63
 
 ### New

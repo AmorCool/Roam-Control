@@ -1,0 +1,5 @@
+.DS_Store
+**/.DS_Store
+Configuration/Local.private.xcconfig
+RoamControl.xcodeproj/
+Releases/
